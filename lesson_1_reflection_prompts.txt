@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Line by line comparison of a fewer numbers of lines (than if I had to search through the entire program)
+  
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can fall back to an earlier version if subsequent changes break the code--
+		I wouldn't have to start from scratch to recover functionality.
+		
+	I can compare various versions with different features more easily.
+	
+	I can assist others in finding their bugs--improved team collaboration.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pro--the file system isn't overloaded with lots of very similar files 
+		that may have insignificant differences between them.
+		
+	Pro--more aware of the changes that were made--
+		maybe label the file with the significant change and that would be useful to others as well.
+		
+	Pro--commits occur at logical points in the coding process
+		
+	Con--may forget to commit thus having several major changes between the most recent and current commit.
+	
+	Con--if coding is disrupted (power outage, reboot, etc.) and no recent commit has occurred, the changes are lost.
+	
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    No clue!
+
+How can you use the commands git log and git diff to view the history of files?
+
+    use git log to list all of the recent commits and then use git diff file1 file2 to list the specific differences between the files.
+	
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always revert back to a working copy, so breaking code is not permanent.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Nothing currently, but I will be assisting students who are writing code for Science Olympiad 
+		and will need to manage and share files, so I want to be able to assist them with version control.
