@@ -39,5 +39,9 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	One branch is merged into another branch which becomes the head of the one merged branch. 
+	All of the commits of merging branch are accessible from the resulting merged branch.
+	The merging branch is no longer needed.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
