@@ -26,6 +26,11 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Adding a new experimental feature, refactoring, fixing bugs, multiple people working on different features of the same project.
+	
+	Branches help because you can always go back to the original point if you don't like your changes or break the code. 
+	Multiple people can work on different facets.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
